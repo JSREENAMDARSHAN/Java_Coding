@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class RemoveDuplicates {
+public class findDuplicates {
     public static void main(String[] args) {
         int n[] = {1,1,2,3,2,4,7};
         Map<Integer,Integer> map = new HashMap<>();
