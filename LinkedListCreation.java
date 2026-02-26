@@ -48,6 +48,7 @@ class LinkedList{
     }
     public void deleteval(int data){
         Node temp = head;
+        
         while(temp.next!=null){
             if(temp.next.data == data){
                 temp.next= null;
